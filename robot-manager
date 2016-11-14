@@ -5,6 +5,6 @@ server {
 
         location / {
                 include uwsgi_params;
-                uwsgi_pass unix:///home/vagrant/.virtualenvs/dotbot/run/robot-manager.sock
+                uwsgi_pass unix:///home/vagrant/.virtualenvs/dotbot/run/robot-manager.sock;
         }
 }
